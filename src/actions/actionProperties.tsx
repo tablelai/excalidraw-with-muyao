@@ -36,7 +36,7 @@ import {
   FontFamilyCodeIcon,
   TextAlignLeftIcon,
   TextAlignCenterIcon,
-  TextAlignRightIcon,
+  TextAlignRightIcon, ImageIcon,
 } from "../components/icons";
 import {
   DEFAULT_FONT_FAMILY,
@@ -677,8 +677,8 @@ export const actionChangeFontFamily = register({
       },
 	  {
 			value: FONT_FAMILY.Muyao,
-			text: t("labels.handDrawn"),
-			icon: FreedrawIcon,
+			text: t("labels.muyao"),
+			icon: ImageIcon,
 		},
     ];
 
